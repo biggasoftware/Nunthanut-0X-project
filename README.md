@@ -2,6 +2,16 @@ IMPORTANT NOTES - please use this command to create the venv first before run th
                    "python -m venv sysanalz"
 Otherwise, the codes are unable to run due to the path conflict.
 
+debugging command: 
+
+pip install fastapi uvicorn - install fastapi
+
+pip install -r requirements.txt - install required libraries
+
+uvicorn app.main:app --reload   - api run
+
+Swagger UI: http://127.0.0.1:8000/docs - for CRUD testing
+
 What's our project is all about:
 
 A web/app platform that helps users find reliable and verified local technicians in one place. Users can search for electricians, plumbers, air-conditioner technicians, or other service providers in their area. The system ensures transparency, fair pricing, and trusted reviews.The platform allows users to submit service requests, compare price estimates, and choose technicians based on verified ratings and certifications.
