@@ -6,13 +6,13 @@ debugging command:
 
 pip install fastapi uvicorn - install fastapi
 
-pip install -r requirements.txt - install required libraries
+pip install -r requirements.txt - install all of required libraries in one places.
 
 uvicorn app.main:app --reload   - api run
 
 Swagger UI: http://127.0.0.1:8000/docs - for CRUD testing
 
-What's our project is all about:
+What's our project all about:
 
 A web/app platform that helps users find reliable and verified local technicians in one place. Users can search for electricians, plumbers, air-conditioner technicians, or other service providers in their area. The system ensures transparency, fair pricing, and trusted reviews.The platform allows users to submit service requests, compare price estimates, and choose technicians based on verified ratings and certifications.
 
